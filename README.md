@@ -1,4 +1,3 @@
-```plaintext
 # pyMisp Setup Guide
 
 This guide will walk you through setting up pyMisp with your MISP instance.
@@ -11,7 +10,9 @@ First, you need to obtain the API key from your MISP instance. This key is neces
 
 In the main directory of your project, create a file named `.env`. This file will store sensitive information securely. Add the following line to the `.env` file:
 
+```plaintext
 MISP_API_KEY="your misp api key"
+```
 
 ## run the code
 
