@@ -7,7 +7,7 @@ This guide will walk you through setting up pyMisp with your MISP instance.
 First, you need to obtain the API key from your MISP instance. This key is necessary for authenticating your requests.
 
 for this
-go to your misp instance , then in the navbar, go to the lst API section, there click OpenAPI
+go to your misp instance , then in the navbar, go to the last API section, there click OpenAPI
 ![image](https://github.com/Nahin009/pyMisp/assets/110973431/b46d14a9-3270-41cd-8d3a-ece7aaee6343)
 
 then go to My Profile -> Auth Keys  by clicking here simply
