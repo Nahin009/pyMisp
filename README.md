@@ -12,3 +12,7 @@ In the main directory of your project, create a file named `.env`. This file wil
 
 ```plaintext
 MISP_API_KEY="your misp api key"
+
+## run the code
+
+Copy-Paste all the commands in the "commands" file in the terminal and click enter 
