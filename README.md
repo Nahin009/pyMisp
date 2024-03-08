@@ -22,7 +22,7 @@ then fill any field according to your need(all are optional, so u can leave all 
 then copy the key
 ![image](https://github.com/Nahin009/pyMisp/assets/110973431/c3908376-9c76-419c-99e6-0ff57bb3207a)
 
-congratilation!!! API key successfully generated
+congratulations!!! API key successfully generated
 
 ## Creating `.env` File
 
