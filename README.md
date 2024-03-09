@@ -1,7 +1,7 @@
 # pyMisp Setup Guide
 
 This guide will walk you through setting up pyMisp with your MISP instance.
-## Pre-requisites:
+## Prerequisites:
 Installed MISP instance
 
 Installed Python
