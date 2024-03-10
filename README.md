@@ -1,32 +1,41 @@
-# pyMisp Setup Guide
+# Hive, Cortex and MISP Integration Guide
 
-This guide will walk you through setting up pyMisp with your MISP instance.
+This guide will walk you through setting up Hive, Cortex and MISP Integration.
 ## Prerequisites:
-Installed MISP instance
+Installed docker and docker compose
 
-Installed Python
+## Commands to run:
+i.  first up(install):
+    docker compose up -d
+ii. remove all containers:
+    docker compose down
+iii. start a previous compose:
+    docker compose start
+iv. stop a previous compose:
+    docker compose stop
 
-## Collecting API Key
+## Caution 
+You may need to increase vm.max_map_count.To do this:
+We need to add below line in /etc/sysctl.conf file and then run sysctl -p to apply the changes.
+vm.max_map_count = 1048575
 
-First, you need to obtain the API key from your MISP instance. This key is necessary for authenticating your requests.
+## Cortex API key
+Firstly, Go to "Add organization".
+![image](https://github.com/Nahin009/pyMisp/blob/Hive%26Cortex%26MISP-Integration/images/Cortex/0.png)
 
-for this
-go to your misp instance , then in the navbar, go to the last API section, there click OpenAPI
-![image](https://github.com/Nahin009/pyMisp/assets/110973431/b46d14a9-3270-41cd-8d3a-ece7aaee6343)
+then input necessary information and save.
+![image](https://github.com/Nahin009/pyMisp/blob/Hive%26Cortex%26MISP-Integration/images/Cortex/1.png)
 
-then go to My Profile -> Auth Keys  by clicking here simply
-![image](https://github.com/Nahin009/pyMisp/assets/110973431/38e3c179-95b5-433b-91ac-683dc1cd93b9)
+then click "Add user" button and input necessary information with orgadmin role
+![image](https://github.com/Nahin009/pyMisp/blob/Hive%26Cortex%26MISP-Integration/images/Cortex/2.png)
 
-then click "+Add authentication key" button
-![image](https://github.com/Nahin009/pyMisp/assets/110973431/aeb22410-e224-4ce3-87c3-d067283345b4)
-
-then fill any field according to your need(all are optional, so u can leave all empty) and click the submit button
-![image](https://github.com/Nahin009/pyMisp/assets/110973431/38f78572-0bec-4a44-8915-852daf47cdb8)
+then click Reveal to get the API key
+![image](https://github.com/Nahin009/pyMisp/blob/Hive%26Cortex%26MISP-Integration/images/Cortex/3.png)
 
 then copy the key
-![image](https://github.com/Nahin009/pyMisp/assets/110973431/c3908376-9c76-419c-99e6-0ff57bb3207a)
+![image](https://github.com/Nahin009/pyMisp/blob/Hive%26Cortex%26MISP-Integration/images/Cortex/4.png)
 
-congratulations!!! API key successfully generated
+
 
 ## Creating `.env` File
 
