@@ -64,7 +64,7 @@ Then, go to "Cortex" tab
 ![image](https://github.com/Nahin009/pyMisp/blob/Hive%26Cortex%26MISP-Integration/images/Hive/1.png)
 
 Input info like the picture and add the previously saved Cortex API key
-![image](https://github.com/Nahin009/pyMisp/blob/Hive%26Cortex%26MISP-Integration/images/Hive/3.png)
+![image](https://github.com/Nahin009/pyMisp/blob/Hive%26Cortex%26MISP-Integration/images/Hive/2.png)
 
 Then, go to "MISP" tab
 ![image](https://github.com/Nahin009/pyMisp/blob/Hive%26Cortex%26MISP-Integration/images/Hive/3.png)
