@@ -5,6 +5,7 @@ This guide will walk you through setting up Hive, Cortex and MISP Integration.
 Installed docker and docker compose
 
 ## Commands to run:
+```
 i.  first up(install):
     docker compose up -d
 ii. remove all containers:
@@ -13,6 +14,7 @@ iii. start a previous compose:
     docker compose start
 iv. stop a previous compose:
     docker compose stop
+```
 
 ## Caution 
 You may need to increase vm.max_map_count.To do this:
@@ -34,17 +36,3 @@ then click Reveal to get the API key
 
 then copy the key
 ![image](https://github.com/Nahin009/pyMisp/blob/Hive%26Cortex%26MISP-Integration/images/Cortex/4.png)
-
-
-
-## Creating `.env` File
-
-In the main directory of your project, create a file named `.env`. This file will store sensitive information securely. Add the following line to the `.env` file:
-
-```plaintext
-MISP_API_KEY="your misp api key"
-```
-
-## run the code
-
-Copy-Paste all the commands in the "commands" file in the terminal and click enter 
