@@ -36,12 +36,28 @@ In the main directory of your project, create a file named `.env`. This file wil
 MISP_API_KEY="your misp api key"
 ```
 
+##### Response Body
+
+```json
+{
+  "list": [
+    {
+      "name": "grocery",
+      "total_amount": 1000,
+      "spent": 500
+    }
+  ]
+}
+```
+
 <figure>
   <img
   src="https://docs.aws.amazon.com/images/whitepapers/latest/serverless-multi-tier-architectures-api-gateway-lambda/images/image2.png"
   alt="3-Tier Client Server Architecture">
   <figcaption>3-Tier Client Server Architecture</figcaption>
 </figure>
+
+![image]([https://github.com/Nahin009/pyMisp/assets/110973431/c3908376-9c76-419c-99e6-0ff57bb3207a](https://docs.aws.amazon.com/images/whitepapers/latest/serverless-multi-tier-architectures-api-gateway-lambda/images/image2.png)https://docs.aws.amazon.com/images/whitepapers/latest/serverless-multi-tier-architectures-api-gateway-lambda/images/image2.png)
 
 ## run the code
 
