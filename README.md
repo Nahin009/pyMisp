@@ -57,7 +57,7 @@ MISP_API_KEY="your misp api key"
   <figcaption>3-Tier Client Server Architecture</figcaption>
 </figure>
 
-![image]([https://github.com/Nahin009/pyMisp/assets/110973431/c3908376-9c76-419c-99e6-0ff57bb3207a](https://docs.aws.amazon.com/images/whitepapers/latest/serverless-multi-tier-architectures-api-gateway-lambda/images/image2.png)https://docs.aws.amazon.com/images/whitepapers/latest/serverless-multi-tier-architectures-api-gateway-lambda/images/image2.png)
+![image](https://docs.aws.amazon.com/images/whitepapers/latest/serverless-multi-tier-architectures-api-gateway-lambda/images/image2.png)
 
 ## run the code
 
