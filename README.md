@@ -36,29 +36,6 @@ In the main directory of your project, create a file named `.env`. This file wil
 MISP_API_KEY="your misp api key"
 ```
 
-##### Response Body
-
-```json
-{
-  "list": [
-    {
-      "name": "grocery",
-      "total_amount": 1000,
-      "spent": 500
-    }
-  ]
-}
-```
-
-<figure>
-  <img
-  src="https://docs.aws.amazon.com/images/whitepapers/latest/serverless-multi-tier-architectures-api-gateway-lambda/images/image2.png"
-  alt="3-Tier Client Server Architecture">
-  <figcaption>3-Tier Client Server Architecture</figcaption>
-</figure>
-
-![image](https://docs.aws.amazon.com/images/whitepapers/latest/serverless-multi-tier-architectures-api-gateway-lambda/images/image2.png)
-
 ## run the code
 
 Copy-Paste all the commands in the "commands" file in the terminal and click enter 
